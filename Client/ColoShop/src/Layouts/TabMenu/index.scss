@@ -1,0 +1,42 @@
+.tab-product{
+    width: 100%;
+    padding: 20px 0;
+    font-family: "Open-sans",sans-serif;
+
+    .tab-inner{
+        width: 100%;
+
+
+        .search{
+            width: 100%;
+            padding: 20px;
+
+            #search{
+                width: 500px;
+                border-radius: 5px;
+                padding: 10px 5px;
+                outline: none;
+                border: 1px solid teal;
+            }
+        }
+
+        .card-text{
+            text-align: center;
+           a{
+            font-size: 18px;
+            font-weight: 600;
+            color: #333;
+           }
+
+           p{
+            color: #FE4C50;
+            font-size: 16px;
+            font-weight: 700;
+            span{
+                color: #bd9494;
+                font-weight: 300;
+            }
+           }
+        }
+    }
+}

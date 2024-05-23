@@ -1,0 +1,33 @@
+section{
+    width: 100%;
+    font-family: "Open-sans",sans-serif;
+    .detail-inner{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 50px 0;
+
+        .image{
+            width: 40%;
+            border: 1px solid #333;
+            border-radius: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .text{
+            width: 50%;
+
+            .text-detail{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding: 10px;
+                margin-bottom: 10px;
+                border-bottom: 1px solid tea
+            }
+        }
+    }
+}
